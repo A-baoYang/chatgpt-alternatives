@@ -1,5 +1,5 @@
 # ChatGPT Alternatives
-Collection of ChatGPT alternatives &amp; LLM tuning methods
+Collections of ChatGPT alternatives &amp; LLM tuning methods
 
 ---
 
