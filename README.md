@@ -26,6 +26,8 @@ HuggingFace 開源的高效參數微調框架！PEFT 方法僅微調少量 (額�
 實測：
 - Inference: 可成功運行 OPT-6.7B 於 4 GPU (T4, 16G) 上。
 
+了解更多：
+- [知乎博主對 FlexGen 的實測](https://zhuanlan.zhihu.com/p/610853654)
 
 [ [hpcaitech/ColossalAI](https://github.com/hpcaitech/ColossalAI) ]  #parallel #distributed #RLHF
 
@@ -35,6 +37,8 @@ HuggingFace 開源的高效參數微調框架！PEFT 方法僅微調少量 (額�
 - Inference: (實作中)
 - Finetune: (實作中)
 
+了解更多：
+- [Colossal-AI 用單張消費級顯示卡，就可以低成本重現ChatGPT完整演算流程](https://www.techbang.com/posts/104007-chatgpt-colossalai-graphics-card)
 
 [ [lucidrains/PaLM-rlhf-pytorch](https://github.com/lucidrains/PaLM-rlhf-pytorch) ]  #RLHF
 
