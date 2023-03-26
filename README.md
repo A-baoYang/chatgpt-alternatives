@@ -18,6 +18,8 @@ HuggingFace 開源的高效參數微調框架！PEFT 方法僅微調少量 (額�
 實測：
 - finetune: 可在 1 GPU 上成功 fine-tine BLOOM-1b1 （用 torchrun 不做任何優化，若要維持同樣 batch_size 需要分散到 4 GPU）
 
+了解更多：
+- [PEFT: 在低資源硬件上對十億規模模型進行參數高效微調](https://blog.csdn.net/HuggingFace/article/details/129292898)
 
 [ [FMInference/FlexGen](https://github.com/FMInference/FlexGen) ]  #offload
 
