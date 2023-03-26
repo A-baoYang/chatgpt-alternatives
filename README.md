@@ -13,17 +13,23 @@ Collection of ChatGPT alternatives &amp; LLM tuning methods
 
 [ [HuggingFace/PEFT](https://github.com/huggingface/peft) ]  #promptuning #parametereffective
 
+HuggingFace 開源的高效參數微調框架！PEFT 方法僅微調少量 (額外) 模型參數，同時凍結預訓練 LLM 的大部分參數，降低了計算和儲存成本、克服災難性遺忘的問題。
+
 實測：
 - finetune: 可在 1 GPU 上成功 fine-tine BLOOM-1b1 （用 torchrun 不做任何優化，若要維持同樣 batch_size 需要分散到 4 GPU）
 
 
 [ [FMInference/FlexGen](https://github.com/FMInference/FlexGen) ]  #offload
 
+目的是使低階顯卡也具備 serve 大模型的能力！對 CPU + GPU 記憶體 + 硬體儲存空間的使用進行全域調度優化。
+
 實測：
 - Inference: 可成功運行 OPT-6.7B 於 4 GPU (T4, 16G) 上。
 
 
 [ [hpcaitech/ColossalAI](https://github.com/hpcaitech/ColossalAI) ]  #parallel #distributed #RLHF
+
+基於 Deepspeed ZeRO + Gemini + 自動 Chunk 記憶體管理機制 & 低秩矩陣微調（LoRA） 等記憶體管理等方法，提出在單機單 GPU、單機多 GPU 上的大規模平行推理及訓練的解決方案。 
 
 實測：
 - Inference: (實作中)
