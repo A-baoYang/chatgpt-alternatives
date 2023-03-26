@@ -1,4 +1,4 @@
-# chatgpt-alternatives
+# ChatGPT Alternatives
 Collection of ChatGPT alternatives &amp; LLM tuning methods
 
 [ [THUDM/ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B) ]  #model
