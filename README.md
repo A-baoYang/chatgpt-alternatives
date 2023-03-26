@@ -3,7 +3,7 @@ Collection of ChatGPT alternatives &amp; LLM tuning methods
 
 ---
 
-#### [ [THUDM/ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B) ]  #model
+### [ [THUDM/ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B) ]  #model
 
 基於 General Language Model (GLM) 架構，具有 62 億參數、支持中英雙語的對話語言模型。輔以 RLHF、監督微調、反饋自助等技術，經過約 1T token 的中英雙語訓練。
 
