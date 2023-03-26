@@ -47,7 +47,7 @@ Collection of ChatGPT alternatives &amp; LLM tuning methods
 
 [ [togethercomputer/OpenChatKit](https://github.com/togethercomputer/OpenChatKit) ]  #model #RLHF
 
-我之前也分享過！主要的亮點是 OpenAI 前員工創立、在 OIG-43M 訓練數據集上訓練的 200 億參數模型。
+主要的亮點是 OpenAI 前員工創立、在 OIG-43M 訓練數據集上訓練的 200 億參數模型。
 
 
 [ [tatsu-lab/stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca) ]  #model #RLHF
