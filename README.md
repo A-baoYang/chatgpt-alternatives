@@ -3,7 +3,7 @@ Collection of ChatGPT alternatives &amp; LLM tuning methods
 
 ---
 
-[ [THUDM/ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B) ]  #model
+#### [ [THUDM/ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B) ]  #model
 
 基於 General Language Model (GLM) 架構，具有 62 億參數、支持中英雙語的對話語言模型。輔以 RLHF、監督微調、反饋自助等技術，經過約 1T token 的中英雙語訓練。
 
@@ -23,6 +23,7 @@ HuggingFace 開源的高效參數微調框架！PEFT 方法僅微調少量 (額�
 了解更多：
 - [PEFT: 在低資源硬件上對十億規模模型進行參數高效微調](https://blog.csdn.net/HuggingFace/article/details/129292898)
 
+
 [ [FMInference/FlexGen](https://github.com/FMInference/FlexGen) ]  #offload
 
 目的是使低階顯卡也具備 serve 大模型的能力！對 CPU + GPU 記憶體 + 硬體儲存空間的使用進行全域調度優化。
@@ -32,6 +33,7 @@ HuggingFace 開源的高效參數微調框架！PEFT 方法僅微調少量 (額�
 
 了解更多：
 - [知乎博主對 FlexGen 的實測](https://zhuanlan.zhihu.com/p/610853654)
+
 
 [ [hpcaitech/ColossalAI](https://github.com/hpcaitech/ColossalAI) ]  #parallel #distributed #RLHF
 
@@ -43,6 +45,7 @@ HuggingFace 開源的高效參數微調框架！PEFT 方法僅微調少量 (額�
 
 了解更多：
 - [Colossal-AI 用單張消費級顯示卡，就可以低成本重現ChatGPT完整演算流程](https://www.techbang.com/posts/104007-chatgpt-colossalai-graphics-card)
+
 
 [ [lucidrains/PaLM-rlhf-pytorch](https://github.com/lucidrains/PaLM-rlhf-pytorch) ]  #RLHF
 
@@ -70,4 +73,5 @@ Stanford 用 OpenAI text-davinci-003模型所生成的 52K 指令遵循資料集
 
 實測：
 - Inference: chavinlo/alpaca-native 可在 1 GPU (T4, 16G) 下成功運行，但只支援英文輸出（可以讀懂中文但不論怎麼調 prompt 只能輸出英文）
+
 
